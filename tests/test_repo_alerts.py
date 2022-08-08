@@ -1,5 +1,5 @@
 import json
-from LegitMonitor import repo_alerts
+from LegitMonitor.alerts import repo_alerts
 
 
 def test_alert_immediate_deletion_true():

@@ -1,7 +1,7 @@
 from datetime import datetime
 import logging
-from .notifications.notifier import notifier
-from . import conf
+from LegitMonitor.notifications.notifier import notifier
+from LegitMonitor import conf
 
 
 def alert_immediate_deletion(data):

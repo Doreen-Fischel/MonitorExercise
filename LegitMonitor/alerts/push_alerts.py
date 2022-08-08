@@ -1,6 +1,6 @@
 from datetime import datetime
-from .notifications.notifier import notifier
-from . import conf
+from LegitMonitor.notifications.notifier import notifier
+from LegitMonitor import conf
 
 
 def alert_push_in_forbidden_hours(data):

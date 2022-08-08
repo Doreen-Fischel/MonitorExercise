@@ -1,6 +1,6 @@
 import logging
-from .notifications.notifier import notifier
-from . import conf
+from LegitMonitor.notifications.notifier import notifier
+from LegitMonitor import conf
 
 
 def alert_prefixes_of_team(data):

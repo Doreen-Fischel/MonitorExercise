@@ -1,5 +1,5 @@
 from datetime import time
-from . import push_alerts, repo_alerts, teams_alerts
+from .alerts import teams_alerts, push_alerts, repo_alerts
 
 REPO_CREATE_DELETE_LIMIT_MINUTES = 10
 

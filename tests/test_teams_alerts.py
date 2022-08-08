@@ -1,5 +1,5 @@
 import json
-from LegitMonitor import teams_alerts
+from LegitMonitor.alerts import teams_alerts
 
 
 def test_alert_prefixes_of_team_true():

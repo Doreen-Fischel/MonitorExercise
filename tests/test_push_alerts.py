@@ -1,5 +1,5 @@
 import freezegun
-from LegitMonitor import push_alerts
+from LegitMonitor.alerts import push_alerts
 
 
 @freezegun.freeze_time("2022-08-08 14:21:34")
